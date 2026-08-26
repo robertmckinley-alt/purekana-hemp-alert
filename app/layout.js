@@ -1,4 +1,5 @@
 import './globals.css';
+import './variants.css';
 
 export const metadata = {
   title: 'Consumer Alert: Federal Hemp Rules Change November 12, 2026',
@@ -7,9 +8,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <html lang="en"><body>{children}</body></html>;
 }
